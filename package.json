@@ -1,0 +1,16 @@
+{
+  "name": "smart-service-callcenter-iis",
+  "version": "1.0.0",
+  "description": "Smart Service - ระบบแจ้งซ่อมออนไลน์ (Online Equipment Repair Request System)",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "node --check server.js",
+    "lint": "node --check server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
